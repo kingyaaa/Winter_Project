@@ -123,7 +123,7 @@ int main()
 // It would be better if U can write down the process how you calculate
 //BubbleSort:总的比较次数为 n+n-1+n-2+...+1=n*(n+1)/2,时间复杂度为O(n^2);
 //SelectSort:总的比较次数为 n+n-1+n-2+...+1=n*(n+1)/2,时间复杂度为O(n^2);
-//InsertSort:最好情况：n-1,时间复杂度为O(n);最坏情况：1+2+3+...+n-1=n*(n-1)/2，时间复杂度为O(n^2);vs
+//InsertSort:最好情况：n-1,时间复杂度为O(n);最坏情况：1+2+3+...+n-1=n*(n-1)/2，时间复杂度为O(n^2);
 
 // Q2: What is the loop invariant of your sorting algorithm?
 // I kown U must Know!! 
