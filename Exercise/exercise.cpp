@@ -133,5 +133,8 @@ int main()
 
 // Q3: What difficulties did you encounter when writing the code?
 // I will read this carefully!
+<<<<<<< HEAD
 //插入排序的最坏情况的计算公式，是否要考虑元素移位时的运算次数？
 //不会快排和归并排列；
+=======
+>>>>>>> 1a19c9c21a23e3361b4d0b64dcde34c67fbc81f3
