@@ -5,6 +5,7 @@
 #include<vector>
 #include<sstream>
 #include<fstream>
+#include<iomanip>
 using namespace std;
 struct User
 {
@@ -13,8 +14,10 @@ struct User
 };
 class Customer
 {
-	Goods g;
 private:vector<User>userList;
+		Goods a;
+		char* ID;
+		char* password;
 public:
 	Customer();
 	~Customer();
@@ -23,11 +26,12 @@ public:
 	void Opetion();
 	void Logout();
 	void CheckGoods();
-	void InquireGoods();//”Îadminœ‡Õ¨
+	void InquireGoods();
 	void FootPrint();
 	void AddGoodsToCart();
 	void DeleteGoodsInCart();
 	void CheckCart();
 	void SettleAmounts();
 	void Order();
+	void Title();
 };
